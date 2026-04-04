@@ -33,6 +33,17 @@ body {
     font-family: "Noto Sans Mono", monospace;
     color: white;
 }
+#highlight {
+    color: #D29F80;
+}
+
+#intro-h2 {
+    font-size: 138%;
+    width: 100%;
+    text-align: center;
+    font-family: "Noto Sans Mono", monospace;
+    color: white;
+}
 
 .box_projects {
     border: 8px solid #D29F80;
@@ -54,7 +65,7 @@ body {
 }
 
 #projects-h2 {
-    font-size: 160%;
+    font-size: 138%;
     width: 100%;
     text-align: center;
     font-family: "Noto Sans Mono", monospace;
@@ -62,16 +73,10 @@ body {
 }
 
 #project-link {
-    font-size: 160%;
-    width: 100%;
-    font-family: "Noto Sans Mono", monospace;
     color: white;
 }
 
 #project-link:hover {
-    font-size: 160%;
-    width: 100%;
-    font-family: "Noto Sans Mono", monospace;
     color: #e6e8eb;
 }
 
@@ -87,43 +92,19 @@ body {
 }
 
 #socials-h1 {
-    font-size: 175%;
+    font-size: 200%;
     width: 100%;
     text-align: center;
     font-family: "Noto Sans Mono", monospace;
     color: white;
+    font-style: italic;
 }
 
-.box_aboutme {
-    border: 8px solid #D29F80;
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #97866A;
-    display: flex;
-    flex-direction: column;
-}
-
-#aboutme-h1 {
-    font-size: 175%;
+.link-style {
+    font-size: 120%;
     width: 100%;
-    text-align: center;
     font-family: "Noto Sans Mono", monospace;
     color: white;
-}
-
-.box_contact {
-    border: 8px solid #D29F80;
-    border-radius: 8px;
-    padding: 10px;
-    background-color: #97866A;
-    display: flex;
-    flex-direction: column;
-}
-
-#contactme-h1 {
-    font-size: 175%;
-    width: 100%;
-    text-align: center;
-    font-family: "Noto Sans Mono", monospace;
-    color: white;
+    text-align: left;
+    padding-left: 140px;
 }
