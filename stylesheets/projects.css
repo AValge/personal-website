@@ -1,44 +1,4 @@
 body {
     background-color: #735557;
-}
-
-.container {
-    display: flex;
-    gap: 40px;
-    padding: 40px;
-    justify-content: center;
-}
-
-.left-column {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.box_intro {
-    border: 8px solid #D29F80;
-    border-radius: 8px;
-    padding: 10px;
-    width: 450px;
-    height: 250px;
-    background-color: #97866A;
-    display: flex;
-    flex-direction: column;
-}
-
-#intro-h1 {
-    font-size: 175%;
-    width: 100%;
-    text-align: center;
     font-family: "Noto Sans Mono", monospace;
-    color: white;
-}
-
-.project_box_1 {
-    border: 2px solid #D29F80;
-    border-radius: 6px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 1000px;
-    height: 100px;
 }

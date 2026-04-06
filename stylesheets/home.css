@@ -1,5 +1,28 @@
 body {
     background-color: #735557;
+    font-family: "Noto Sans Mono", monospace;
+    color: white;
+}
+
+#navbar {
+    border: 8px solid #D29F80;
+    border-radius: 8px;
+    background-color: #97866A;
+    gap: 30px;
+    padding: 20px 40px;
+    width: 487px;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+}
+.nav-link {
+    font-size: 200%;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #D29F80;
 }
 
 .container {
@@ -30,9 +53,8 @@ body {
     font-size: 175%;
     width: 100%;
     text-align: center;
-    font-family: "Noto Sans Mono", monospace;
-    color: white;
 }
+
 #highlight {
     color: #D29F80;
 }
@@ -41,8 +63,6 @@ body {
     font-size: 138%;
     width: 100%;
     text-align: center;
-    font-family: "Noto Sans Mono", monospace;
-    color: white;
 }
 
 .box_projects {
@@ -60,23 +80,19 @@ body {
     font-size: 175%;
     width: 100%;
     text-align: center;
-    font-family: "Noto Sans Mono", monospace;
-    color: white;
 }
 
 #projects-h2 {
     font-size: 138%;
     width: 100%;
     text-align: center;
-    font-family: "Noto Sans Mono", monospace;
+}
+
+.project-link {
     color: white;
 }
 
-#project-link {
-    color: white;
-}
-
-#project-link:hover {
+.project-link:hover {
     color: #e6e8eb;
 }
 
@@ -95,16 +111,54 @@ body {
     font-size: 200%;
     width: 100%;
     text-align: center;
-    font-family: "Noto Sans Mono", monospace;
-    color: white;
     font-style: italic;
 }
 
 .link-style {
-    font-size: 120%;
+    font-size: 190%;
     width: 100%;
-    font-family: "Noto Sans Mono", monospace;
-    color: white;
     text-align: left;
-    padding-left: 140px;
+    padding-left: 85px;
+}
+
+.link-position {
+    padding-top: 24px;
+}
+
+#spigotmc-logo-icon {
+    height: 10%;
+    width: 10%;
+    padding-right: 10px;
+}
+
+#github-logo-icon {
+    height: 10%;
+    width: 10%;
+    padding-right: 10px;
+}
+
+#discord-logo-icon {
+   height: 10%;
+   width: 10%;
+   padding-right: 10px; 
+}
+
+#email-icon {
+    height: 10%;
+    width: 10%;
+    padding-right: 10px; 
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #e6e8eb;
+}
+
+#footer {
+    padding-top: 330px;
+    font-size: 130%;
+    text-align: center;
 }
