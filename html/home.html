@@ -7,7 +7,8 @@
     <link rel="icon" type="image/x-icon" href="/images/avalge_icon2.ico">
     <link rel="stylesheet" href="/stylesheets/home.css" />
   </head>
-  <body> 
+  <body>
+    <div id="stars"></div>
     <div class="container">
       <div class="left-column">
         <nav id="navbar">
@@ -43,13 +44,30 @@
       </div>
       <div class="box_work_with_me">
         <h1>Work with me</h1>
-        <h2>If you wish to collaborate, work with me or request my programming service, contact me through Discord or E-Mail from the link collection above</h2>
+        <h2>If you wish to collaborate, work with me or request my programming services, contact me through Discord or E-Mail from the link collection above</h2>
       </div>
       </div>
     </div>
     <footer id="footer">
         <p>avalge.dev</p>
         <p>&copy; AValge 2026</p>  
-      </footer>
+    </footer>
+    <script>
+      const space = document.getElementById('stars');
+      for (let i = 0; i < 150; i++) {
+        const star = document.createElement('div');
+        star.classList.add('star');
+        const size = Math.random() * 2.5 + 0.5;
+        star.style.cssText = `
+            width: ${size}px;
+            height: ${size}px;
+            left: ${Math.random() * 100}%;
+            top: ${Math.random() * 100}%;
+            --duration: ${Math.random() * 3 + 1.5}s;
+            --delay: ${Math.random() * 4}s;
+        `;
+        space.appendChild(star);
+    }
+    </script>
   </body>
 </html>
