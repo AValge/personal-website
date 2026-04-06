@@ -2,6 +2,7 @@ body {
     background-color: #735557;
     font-family: "Noto Sans Mono", monospace;
     color: white;
+    zoom: 0.75;
 }
 
 #navbar {
@@ -14,10 +15,12 @@ body {
     justify-content: center;
     display: flex;
     box-sizing: border-box;
+    margin-top: 30px;
 }
+
 .nav-link {
     font-size: 200%;
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
 
@@ -33,6 +36,12 @@ body {
 }
 
 .left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.right-column {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -96,18 +105,19 @@ body {
     color: #e6e8eb;
 }
 
-.box_socials {
+.box_link_collection {
     border: 8px solid #D29F80;
     border-radius: 8px;
     padding: 10px;
     width: 350px;
-    height: 577px;
+    height: 383.5px;
     background-color: #97866A;
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
 }
 
-#socials-h1 {
+#linkcollection-h1 {
     font-size: 200%;
     width: 100%;
     text-align: center;
@@ -157,8 +167,31 @@ a:hover {
     color: #e6e8eb;
 }
 
+.box_work_with_me {
+    border: 8px solid #D29F80;
+    border-radius: 8px;
+    padding: 10px;
+    width: 350px;
+    height: 250px;
+    background-color: #97866A;
+    display: flex;
+    flex-direction: column;
+}
+
+.box_work_with_me h1 {
+    font-size: 175%;
+    width: 100%;
+    text-align: center;
+}
+
+.box_work_with_me h2 {
+    font-size: 138%;
+    width: 100%;
+    text-align: center;
+}
+
 #footer {
-    padding-top: 330px;
+    padding-top: 150px;
     font-size: 130%;
     text-align: center;
 }
