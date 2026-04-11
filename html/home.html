@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AValge.dev | Home</title>
     <link rel="icon" type="image/x-icon" href="/images/avalge_icon2.ico">
-    <link rel="stylesheet" href="/stylesheets/home.css" />
+    <link rel="stylesheet" href="/stylesheets/home.css"/>
   </head>
   <body>
     <div id="stars"></div>
+    <div id="title">AValge.dev</div>
     <div class="container">
       <div class="left-column">
         <nav id="navbar">
@@ -18,7 +19,6 @@
         <div class="box_intro">
           <h1 id="intro-h1">Hello my name is <span id="highlight">AValge!</span></h1>
           <h2 id="intro-h2">Hello there! I'am a 16 year old freelance developer.<br>
-          I work with HTML + CSS & Java. <br>
           Want to work with me? <br>
           Add me on Discord or send me an email.
           </h2>
@@ -34,18 +34,24 @@
       </div>
       <div class="right-column">
         <div class="box_link_collection">
-        <h1 id="linkcollection-h1">Link Collection</h1>
-        <div class="link-style"> 
-          <div class="link-position"><img src="/images/github_icon.png" alt="Transparent Github logo" id="github-logo-icon"><a href="https://github.com/AValge" target="_blank">Github</a></div>
-          <div class="link-position"><img src="/images/spigotmc_icon.png" alt="Transparent SpigotMC logo" id="spigotmc-logo-icon"><a href="https://www.spigotmc.org/members/avalge.1255688/" target="_blank">SpigotMC</a></div>
-          <div class="link-position"><img src="/images/discord_icon.png" alt="Transparent Discord logo" id="discord-logo-icon"><a href="https://discord.com/users/641310411110481932" target="_blank">Discord</a></div>
-          <div class="link-position"><img src="/images/email_icon.png" alt="Transparent email logo" id="email-icon"><a href="mailto:avalge@avalge.dev" target="_blank">E-Mail</a></div>
+          <h1>Link Collection</h1>
+          <div class="link-style"> 
+            <div class="link-position"><img src="/images/github_icon.png" alt="Transparent Github logo" class="icon"><a href="https://github.com/AValge" target="_blank">Github</a></div>
+            <div class="link-position"><img src="/images/spigotmc_icon.png" alt="Transparent SpigotMC logo" class="icon"><a href="https://www.spigotmc.org/members/avalge.1255688/" target="_blank">SpigotMC</a></div>
+            <div class="link-position"><img src="/images/discord_icon.png" alt="Transparent Discord logo" class="icon"><a href="https://discord.com/users/641310411110481932" target="_blank">Discord</a></div>
+            <div class="link-position"><img src="/images/email_icon.png" alt="Transparent email logo" class="icon"><a href="mailto:avalge@avalge.dev" target="_blank">E-Mail</a></div>
+          </div>
         </div>
-      </div>
-      <div class="box_work_with_me">
-        <h1>Work with me</h1>
-        <h2>If you wish to collaborate, work with me or request my programming services, contact me through Discord or E-Mail from the link collection above</h2>
-      </div>
+        <div class="box_langauges">
+          <h1>Languages I know</h1>
+          <div class="lang-style"> 
+            <div class="lang-position"><img src="/images/html_icon.png" alt="HTML Logo" class="icon">HTML</div>
+            <div class="lang-position"><img src="/images/css_icon.png" alt="CSS Logo" class="icon">CSS</div>
+            <div class="lang-position"><img src="/images/javascript_icon.png" alt="Javascript Logo" class="icon">Javascript</div>
+            <div class="lang-position"><img src="/images/java_icon.png" alt="Java Logo" class="icon">Java</div>
+            <div class="lang-position"><img src="/images/sql_icon.png" alt="SQL Logo" class="icon">SQL</div>
+          </div>
+        </div>
       </div>
     </div>
     <footer id="footer">
@@ -67,7 +73,7 @@
             --delay: ${Math.random() * 4}s;
         `;
         space.appendChild(star);
-    }
+      }
     </script>
   </body>
 </html>

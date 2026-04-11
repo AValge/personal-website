@@ -1,28 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AValge.dev | Projects</title>
-    <link rel="icon" type="image/x-icon" href="/images/avalge_icon2.ico">
-    <link rel="stylesheet" href="/stylesheets/projects.css" />
-  </head>
-  <body> 
-    <div>
-        <div>
-          <h1>Projects</h1>
-          <h2>This is a collection of my personal projects</h2>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>AValge.dev | Projects</title>
+      <link rel="icon" type="image/x-icon" href="/images/avalge_icon2.ico">
+      <link rel="stylesheet" href="/stylesheets/projects.css" />
+    </head>
+    <body> 
+      <div id="stars"></div>
+      <div class="title">
+        <h1>Projects</h1>
+        <h2>This is a collection of my personal projects</h2>
+      </div>
+      <div class="container">
+        <div class="left-column">
+          <div class="box_lavarising">
+            <h1>Lavarising</h1>
+          </div>
+          <div class="box_schoolender">
+            <h1>Schoolender</h1>
+          </div>  
         </div>
-        <div class="projects">
-          <h1 class="project_box" id="project_lavarising">Lavarising</h1>
-          <h1 class="project_box" id="project_swecraft">Swecraft</h1>
-          <h1 class="project_box" id="project_schoolender">Schoolender</h1>
+        <div class="right-column">
+          <div class="box_swecraft">
+            <h1>Swecraft</h1>
+          </div>
+          <div class="box_ggsociety">
+            <h1>GGSociety</h1>
+          </div>
         </div>
-    </div>
-    <footer>
-      <p>avalge.dev</p>
-      <p>&copy; AValge 2026</p>  
-    </footer>
-  </body>
-</html>
+      </div>
+      <footer>
+        <p>avalge.dev</p>
+        <p>&copy; AValge 2026</p>  
+      </footer>
+      <script>
+        const space = document.getElementById('stars');
+        for (let i = 0; i < 150; i++) {
+          const star = document.createElement('div');
+          star.classList.add('star');
+          const size = Math.random() * 2.5 + 0.5;
+          star.style.cssText = `
+              width: ${size}px;
+              height: ${size}px;
+              left: ${Math.random() * 100}%;
+              top: ${Math.random() * 100}%;
+              --duration: ${Math.random() * 3 + 1.5}s;
+              --delay: ${Math.random() * 4}s;
+          `;
+          space.appendChild(star);
+      }
+      </script>
+    </body>
+  </html>
 </html>
