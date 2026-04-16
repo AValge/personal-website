@@ -27,6 +27,20 @@ body {
     50% { opacity: 1; transform: scale(1.3); }
 }
 
+.home-button {
+    position: absolute;
+    font-size: 175%;
+    padding-top: 20px;
+    padding-left: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+.home-button:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .container {
     display: flex;
     gap: 40px;
@@ -86,12 +100,6 @@ body {
     filter: brightness(0) invert(1);
     margin-left: 110px;
     margin-top: 50px;
-}
-
-#footer {
-    padding-top: 290px;
-    font-size: 130%;
-    text-align: center;
 }
 
 @keyframes fallIn {
@@ -159,4 +167,10 @@ body {
     animation-delay: 0.45s;
     animation-duration: 1s;
     animation-fill-mode: backwards;
+}
+
+#footer {
+    padding-top: 350px;
+    font-size: 130%;
+    text-align: center;
 }
